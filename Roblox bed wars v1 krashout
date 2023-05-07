@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("krashouts script", "Ocean")
+
+if game.Placeld == 6872265039 then
+--MAIN
+local Main Tab = Window:NewTab("MAIN")
+local MainSection = Main:NewSection("fly")
+
+MainSection:NewButton("fly", "makes you fly.", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+  
+end)
+
+local MainSection = Main:NewSection("infinte yield")
+
+Section:NewButton("infinte yield", "fun stuff", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIV/Infiniteyield/master/source),true))()
+end)
